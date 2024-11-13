@@ -1,1 +1,2 @@
 # JejakBatik-Capstone
+JejakBatik is an image recognition technology based on Convolutional Neural Network (CNN). This CNN technology allows users to recognize batik motifs through photos and get philosophical information, regional origin, and recommendations for use. It is hoped that this application can create an effective digital media to introduce batik culture in depth to all generations, especially the younger generation.
