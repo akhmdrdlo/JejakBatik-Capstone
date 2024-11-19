@@ -15,3 +15,7 @@ JejakBatik is an image recognition technology based on Convolutional Neural Netw
 | Akhmad Ridlo Rifa'i      | C547B4NY0290  | Cloud Computing     | [GitHub Profile](https://github.com/akhmdrdlo)| [LinkedIn Profile](https://www.linkedin.com/in/akhmdrdlo/) |
 | John Presly Nasution     | C764B4KY2085  | Cloud Computing     | [GitHub Profile](https://github.com/JohnPreslyNasution)   | [LinkedIn Profile](https://www.linkedin.com/in/john-presly-nasution-2310092b7/) |
 | Yogi Bastian             | A764B4KY4537  | Mobile Development  | [GitHub Profile](https://github.com/YogiBastian)| [LinkedIn Profile](https://www.linkedin.com/in/yogibastian/) |
+
+# Cloud Computing
+### Design Infrastructure Cloud
+<img src="/asset/DesignInfrastructureCloud.png" alt="Design Infrastructure Cloud">
