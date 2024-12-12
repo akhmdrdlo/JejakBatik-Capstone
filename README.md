@@ -52,6 +52,13 @@ JejakBatik is an image recognition technology based on Convolutional Neural Netw
 
 ### App Demonstration
 #### Authentication
+<img src="https://github.com/user-attachments/assets/595eb30d-1070-4920-be87-d859f3e32b07" style="width:1000px"><br>
 
-#### Authentication
+#### Scanner Feature
+<img src="https://github.com/user-attachments/assets/cea04df7-9432-4739-936d-e961a01f06b0" style="width:1000px"><br>
+
+#### Full App Demo <a href="https://drive.google.com/file/d/1zCOZtRKug1x-G7iNuYUKel_gFCkdudKn/view?usp=drive_link" target="_blank">Link!!</a>
+
+# How to use our app? Simple!! Just download the .apk file on this <a href="https://drive.google.com/file/d/1Jzn7D0IQHKWbxBqfz8PizLCoHnbr476p/view?usp=drive_link" target="_blank"> Link!! </a>
+
 
