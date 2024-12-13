@@ -1,7 +1,6 @@
+![JejakBatik](https://github.com/user-attachments/assets/dc73a127-aa5e-42b9-9441-49a4ade47e41)
 # Welcome to JejakBatik App!!
-<img src="https://github.com/user-attachments/assets/cc9a62fe-81a1-4534-aabf-713ca401ef0c" style="width:200px;" alt="JejakBatikLogo">
-<br>
-JejakBatik is an image recognition technology based on Convolutional Neural Network (CNN). This CNN technology allows users to recognize batik motifs through photos and get philosophical information, regional origin, and recommendations for use. It is hoped that this application can create an effective digital media to introduce batik culture in depth to all generations, especially the younger generation.
+JejakBatik is a fun and interactive image recognition tool powered by Convolutional Neural Network (CNN) technology. Simply snap a photo of a batik motif, and JejakBatik will instantly identify it, revealing fascinating insights into its philosophical meaning, regional origin, and potential uses. We hope to inspire a new generation of batik enthusiasts by making this rich cultural heritage accessible and engaging.
 
 # Our Team
 
@@ -18,9 +17,15 @@ JejakBatik is an image recognition technology based on Convolutional Neural Netw
 
 # Cloud Computing
 ### Design Infrastructure Cloud
+Our Cloud Architecture used are explain below : 
+VM Instance as our main Virtual Machine to run nearly the entire application. Also preserving the VM disk for our Databases.
+App Engine to support the main VM, displaying the web pages of some of our features.
+Cloud Storage to store all of the images data.
+Firestore to store the recent scan histories for each user that’s already registered into our app.
 <img src="https://github.com/user-attachments/assets/feaea9df-c4af-4e06-bfe7-c713f7f9957e" style="width:700px"> <br>
 # Machine Learning
 ### Model Architecture
+We enhanced the power of the pre-trained EfficientNet B0 model by integrating it with a custom architecture tailored to our specific dataset and objectives. EfficientNetB0 serves as the backbone, while our custom layers balance between the generalization strength of pre-trained features and the adaptability of custom layers, improving classification accuracy and reducing overfitting.
 
 | Layer (type) | Output Shape | Param # |
 |---|---|---|
