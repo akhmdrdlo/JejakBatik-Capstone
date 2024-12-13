@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <!-- Home Fragment -->
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.jejak_batik.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_descriptionFragment"
+            app:destination="@id/descriptionFragment" />
+        <action
+            android:id="@+id/action_currentFragment_to_cameraFragment"
+            app:destination="@id/navigation_camera" />
+
+    </fragment>
+
+
+    <!-- Camera Fragment -->
+    <fragment
+        android:id="@+id/navigation_camera"
+        android:name="com.example.jejak_batik.ui.camera.CameraFragment"
+        android:label="@string/title_camera"
+        tools:layout="@layout/fragment_camera">
+        <!-- Navigation to Analysis Result Fragment -->
+        <action
+            android:id="@+id/action_navigation_camera_to_analysis_result"
+            app:destination="@id/analysis_result_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.jejak_batik.ui.description.DetailFragment"
+        tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="historyItem"
+            app:argType="com.example.jejak_batik.data.model.history.HistoryItem" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.example.jejak_batik.ui.history.HistoryFragment"
+        android:label="History"
+        tools:layout="@layout/fragment_history">
+    <action
+            android:id="@+id/action_historyFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+        <action
+            android:id="@+id/action_historyFragment_to_navigation_camera"
+            app:destination="@id/navigation_camera" />
+    </fragment>
+
+    <!-- Analysis Result Fragment -->
+    <fragment
+        android:id="@+id/analysis_result_fragment"
+        android:name="com.example.jejak_batik.ui.camera.AnalysisResultFragment"
+        android:label="Hasil Analisis"
+        tools:layout="@layout/fragment_analysis_result" >
+    <action
+        android:id="@+id/action_analysisResultFragment_to_detailFragment"
+        app:destination="@id/detailFragment" />
+    </fragment>
+
+    <!-- Marketplace Fragment -->
+    <fragment
+        android:id="@+id/navigation_catalog"
+        android:name="com.example.jejak_batik.ui.catalog.CatalogFragment"
+        tools:layout="@layout/fragment_catalog">
+        <action
+            android:id="@+id/action_catalogFragment_to_descriptionFragment"
+            app:destination="@id/descriptionFragment" />
+    </fragment>
+
+    <!-- Description Fragment -->
+    <fragment
+        android:id="@+id/descriptionFragment"
+        android:name="com.example.jejak_batik.ui.description.DescriptionFragment"
+        android:label="DescriptionFragment">
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="description"
+            app:argType="string" />
+        <argument
+            android:name="linkImage"
+            app:argType="string" />
+        <argument
+            android:name="linkShop"
+            app:argType="string" />
+        <argument
+            android:name="occasion"
+            app:argType="string" />
+        <argument
+            android:name="history"
+            app:argType="string" />
+    </fragment>
+
+    <!-- Settings Fragment -->
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="com.example.jejak_batik.ui.profile.ProfileFragment"
+        android:label="@string/title_setting" />
+
+    <!-- Login Activity -->
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.jejak_batik.ui.login.LoginActivity"
+        android:label="Login"
+        tools:layout="@layout/activity_login" />
+
+    <!-- Signup Activity -->
+    <activity
+        android:id="@+id/signupActivity"
+        android:name="com.example.jejak_batik.ui.signup.SignupActivity"
+        android:label="Sign Up" />
+</navigation>

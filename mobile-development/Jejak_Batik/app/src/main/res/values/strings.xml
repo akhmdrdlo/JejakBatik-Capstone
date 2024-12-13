@@ -1,0 +1,114 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Jejak Batik</string>
+
+    <!-- Titles -->
+    <string name="title_home">Home</string>
+    <string name="title_camera">Camera</string>
+    <string name="title_history">History</string>
+    <string name="title_marketplace">Marketplace</string>
+    <string name="title_setting">Setting</string>
+    <string name="title_login_page">Selamat Datang di Jejak Batik!!</string>
+    <string name="title_signup_page">Lengkapi data dirimu</string>
+    <string name="title_verify_page">Silahkan Masukan Kode OTP</string>
+
+    <!-- Exploration -->
+    <string name="jelah">Mulai Menjelajah!!</string>
+    <string name="find_your_batik_pattern">Temukan Pola Batik Yang Kamu Pakai</string>
+    <string name="scan_your_batik">Scan Batikmu</string>
+    <string name="explore_other_batik">Jelajahi Motif Batik Lainnya!!</string>
+    <string name="lainnya">Lainnya</string>
+
+    <!-- Camera -->
+    <string name="pindai_foto">pindai foto</string>
+    <string name="ambil_dari_kamera">kamera</string>
+    <string name="ambil_dari_galeri">galeri</string>
+    <string name="pindai_foto_lagi">Pindah Lagi</string>
+    <string name="image_preview">image_preview</string>
+
+    <!-- Buttons -->
+    <string name="simpan">Simpan</string>
+    <string name="kembali">Kembali</string>
+    <string name="continue_button">Lanjut</string>
+    <string name="retry">Coba Lagi</string>
+    <string name="verify_now">Verifikasi Sekarang</string>
+    <string name="cancel">Batal</string>
+    <string name="ok_button">OK</string>
+    <string name="back_to_signup">Kembali ke Daftar</string>
+
+    <!-- Login -->
+    <string name="login">Masuk</string>
+    <string name="login_success">Selamat Login Sukses</string>
+    <string name="message_login_page">Mau mengetahui berbagai macam batik yang anda temui?</string>
+    <string name="error_login_failed">Token Kosong</string>
+    <string name="invalid_input_message">Input Anda tidak valid. Periksa kembali data Anda.</string>
+
+    <!-- Signup -->
+    <string name="signup">Daftar</string>
+    <string name="signup_now">Daftar Sekarang</string>
+    <string name="not_a_member">Belum memiliki Akun?</string>
+    <string name="name_hint">Masukan Nama Anda</string>
+    <string name="name">Nama</string>
+    <string name="name_error">Nama tidak boleh kosong</string>
+    <string name="conflict_title">Email Sudah Terdaftar</string>
+    <string name="conflict_message">Email sudah terdaftar, silakan verifikasi atau gunakan email lain.</string>
+
+    <!-- Email -->
+    <string name="email">Email</string>
+    <string name="email_hint">Masukan Email Anda</string>
+    <string name="email_missing_at">Email harus mengandung karakter @</string>
+    <string name="email_invalid_format">Format email tidak valid</string>
+
+    <!-- Password -->
+    <string name="password">Password</string>
+    <string name="password_hint">Masukan Password Anda</string>
+    <string name="password_error">Password tidak boleh kurang dari 8 karakter</string>
+
+    <!-- Verification -->
+    <string name="verify">Masukan OTP</string>
+    <string name="verify_button_text">Verifikasi</string>
+    <string name="otp_empty_error">OTP SALAH!!</string>
+    <string name="otp_invalid_error">OTP tidak valid</string>
+    <string name="otp_expired">OTP Kadalwuarsa</string>
+    <string name="invalid_otp_format">OTP harus berupa angka 6 digit.</string>
+    <string name="resend_otp_message">OTP Anda telah kadaluarsa. Apakah Anda ingin mengirim ulang OTP?</string>
+    <string name="resend">Kirim Ulang</string>
+    <string name="otp_resend_success">OTP berhasil dikirim ulang.</string>
+    <string name="verify_failed_title">Verifikasi Gagal</string>
+
+    <!-- General Messages -->
+    <string name="unknown_error">Unknown error occurred.</string>
+    <string name="error_default">Erorr, Mohon coba lagi.</string>
+    <string name="missing_data_error">Some data is missing. Please try again.</string>
+    <string name="error_title">Oops!</string>
+    <string name="success_title">Yeah!</string>
+
+    <!-- Preferences -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!-- Placeholder -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image_description">Ini adalah gambar untuk signup</string>
+    <string name="image_desc">Gambar Deskripsi</string>
+    <string name="detail_batik_title">Detail batik\n</string>
+    <string name="no_description">tidak ada deskripsi</string>
+    <string name="no_occasion">Tidak ada rekomendasi</string>
+    <string name="ganti_bahasa">Ganti Bahasa</string>
+    <string name="lihat_di_tokopedia">Lihat di Tokopedia</string>
+    <string name="cocok_untuk">Rekomendasi</string>
+    <string name="motif_batik">Motif Batik</string>
+    <string name="penjelasan">Penjelasan</string>
+    <string name="nama_pengguna">Nama Pengguna</string>
+    <string name="email_pengguna">Email Pengguna</string>
+    <string name="title_forget_page">Lupa Password</string>
+    <string name="forget">Silahkan masukan Email Anda</string>
+    <string name="forget_button_text">Kirim</string>
+    <string name="forgetpassword">Lupa Password</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primary">#DC143C</color> <!-- Primary -->
+    <color name="primary_variant">#B0171F</color> <!-- Variant warna primary, lebih gelap -->
+    <color name="secondary">#FF4500</color> <!-- Secondary, bisa menggunakan warna oranye -->
+    <color name="secondary_variant">#D43C00</color> <!-- Variant warna secondary -->
+    <color name="background">#FFFFFF</color> <!-- Background default -->
+    <color name="surface">#F5F5F5</color> <!-- Warna permukaan (misal untuk card atau dialog) -->
+    <color name="error">#B00020</color> <!-- Warna untuk pesan error -->
+    <color name="on_primary">#FFFFFF</color> <!-- Teks di atas warna primary -->
+    <color name="on_secondary">#FFFFFF</color> <!-- Teks di atas warna secondary -->
+    <color name="on_background">#000000</color> <!-- Teks di atas warna background -->
+    <color name="on_surface">#000000</color> <!-- Teks di atas warna permukaan -->
+    <color name="on_error">#FFFFFF</color> <!-- Teks di atas warna error -->
+</resources>
