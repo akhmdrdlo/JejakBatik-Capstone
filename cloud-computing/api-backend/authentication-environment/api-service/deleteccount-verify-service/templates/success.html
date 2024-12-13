@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aksi Berhasil</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-image: url('https://storage.googleapis.com/staging.jejakbatik.appspot.com/asset/cendrawasih-bg.png');
+            background-size: cover;
+            background-position: center;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-20px);
+            }
+            60% {
+                transform: translateY(-10px);
+            }
+        }
+        @keyframes glow {
+            0% {
+                box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+            }
+            50% {
+                box-shadow: 0 0 20px rgba(255, 0, 0, 1);
+            }
+            100% {
+                box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+            }
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center min-h-screen bg-gray-100">
+    <div class="bg-white bg-opacity-90 p-8 rounded-lg shadow-lg text-center max-w-md mx-auto border-4 border-red-600 animate__animated animate__fadeIn" style="animation: fadeIn 1s ease-in-out, glow 2s infinite;">
+        <div class="flex justify-center mb-4 animate__animated animate__bounce" style="animation: bounce 2s infinite;">
+            <div class="bg-red-600 rounded-full p-4">
+                <i class="fas fa-check text-white text-4xl"></i>
+            </div>
+        </div>
+        <h1 class="text-2xl font-bold text-red-600 mb-4">Aksi berhasil!!</h1>
+        <p class="text-lg font-semibold mb-2">Terimakasih telah bergabung bersama!!</p>
+        <p class="text-lg font-semibold mb-2">Kami tunggu kedatanganmu kembali!!</p>
+        <p class="text-sm text-gray-500 mb-4">We're looking forward for your return!!</p>
+        <p class="text-lg font-semibold">Kamu boleh menutup tab ini!!</p>
+        <button onclick="window.close()" class="mt-4 px-4 py-2 bg-red-600 text-white rounded-full hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-opacity-50">
+            <i class="fas fa-times"></i> Tutup
+        </button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</body>
+</html>

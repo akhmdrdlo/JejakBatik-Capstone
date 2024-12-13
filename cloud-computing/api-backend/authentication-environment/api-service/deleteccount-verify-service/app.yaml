@@ -1,0 +1,15 @@
+runtime: python39 
+entrypoint: gunicorn -w 4 -b :$PORT app:app
+
+service: deleteaccountverify
+
+handlers:
+  - url: /templates
+    static_dir: templates
+
+  - url: /.*
+    script: auto 
+
+env_variables:
+  GOOGLE_APPLICATION_CREDENTIALS: "credential.json" 
+  FLASK_ENV: "production"
